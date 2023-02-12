@@ -109,6 +109,6 @@ lazy val cli = (project in file(".")).
   )
 scalastyleConfig := baseDirectory.value / "project" / "scalastyle-config.xml"
 
-trapExit := false
+trapExit := true
 fork := true
 connectInput := true
